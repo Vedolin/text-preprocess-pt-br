@@ -1,0 +1,2 @@
+# text-preprocess-pr-br
+This software was developed to improve results in sentiment analysis.. It used a base consisted of Facebook comments and post IDs as validation. The main objetive is preprocess the natural language (in this case, Portuguese pt-br) for further analysis. The preprocess include: (NKTL) stopwords, (RSLP) stemmer, emoticons replacement to correspondent words, blank spaces removal, special caracteres removal, abbreviations replacement to correspondent words and word counts (frequency in document). 
