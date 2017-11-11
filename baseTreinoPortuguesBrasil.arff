@@ -1,0 +1,560 @@
+%Base de treino em portugues para linguagem natural		
+@relation baseTreino			
+			
+%Atributos da base			
+@attribute commentMessage string			
+@attribute class {positiva, negativa, neutra}			
+			
+%dados obtidos			
+@data		
+'verdad',positiva
+'unic poli propin',neutra
+'republ carn papela',neutra
+'cyb crim compens vari aspect lei frac inefici com malandr presidi',neutra
+'lot cemiteri',negativa
+'exat',positiva
+'cemiteri prejuiz',negativa
+'pen mort cl baix val',negativa
+'crim compens vir crimin kkk moh pi entr favel vir carcerari brasil assist daten sof aconcheg ar condicion tv led bonit concluso total dist',neutra
+'opco desalot cemiteri enterr pe cremaca',negativa
+'pen mort func pobr cl max',negativa
+'man lot cemiteri corp doa univers medicinapr aul orga doaca rest queim ger energ termica cri adub',negativa
+'sandr mott desculp hav pen mort mat estupr',negativa
+'pen mort crim hedi resolv pres crim hedi minor',negativa
+'so falt inclu trafic drog',negativa
+'boa inici',positiva
+'pen mort crim extint decisa onu 2010 map violenc mund alert criminal control necessari construca presidi',negativa
+'mimim favel pobr pen mort resolv roub mat mort volt comet crimeclar resolv',negativa
+'vi femin acus estupr tchau man',negativa
+'menos populaca carcer pres assassinat mat lo esvazi muit',negativa
+'populaca carcer trafic baix nivel',neutra
+'esper fotograf',neutra
+'concord',positiva
+'concord',positiva
+'incri 2017 argument pens mat complic entend func criminal brasil favor',negativa
+'moral perfeit err confund err assassinat estupr pedofil dev receb pen mortepont',negativa
+'noj',negativa
+'olh superlotaca sei diminu tant gost sab apresent font tip ajud afirmaca diminuica tax criminal',neutra
+'tom lik',positiva
+'pres',neutra
+'poli desvi contribuint pen mort prisa perpetu',negativa
+'esquec traf drog corrupca',negativa
+'concord',positiva
+'cont continu tend populaca carcer tend pen mort sorr',negativa
+'leo med profila economiz deix presidi melhor jeit unic tem mort',negativa
+'laur populaca carcer chin russ log pen mort rel dad',negativa
+'muit pres segu criminalizaca drog prend dezen milh pequen trafic usuari ach resolv algum drog publ seguranc publ',neutra
+'pen mort dar cert que mat discut cham pv',negativa
+'terc popul mund log entendi populaca carcer por assassinat roub estupr men exist pen mort populaca men',negativa
+'jos jr concord contig',positiva
+'boa antoni lembr adot pen mort',neutra
+'lar breschigliar questa adot pen mort populaca americ terceiraraciocini tamanh populaca chin 1bi habitantes5 brasil giganteobvi populaca carcer lasimpl questa proporca',negativa
+'vdd amig insist caus consequenc falaciosaolh dad populaca carcer absolut proporcional716 detent 100 habit 274sa dess defend pont vist falac eh quer us ment mat eh melhor inform',neutra
+'lend comentariosfacil detect achometr coment bas nenhum simples ach fei pass vergonh',negativa
+'pen mort assassinat total just 20 cade traz famil vit',negativa
+'jog napalm presidi mat retir cade dev pensa napalm dentr kkkkkkmim',neutra
+'gal esquec compar est unid amer compar crim solucion populaca carcer men pouc crim solucionadosmat som australi zeland europ can chin nort afric turqu arab saudit ira junt impun tremendacrim solucion teri duvid populaca carcer',neutra
+'concord bolsonaro2018',positiva
+'escravida proib sen',negativa
+'voc bas fal numer apresent ach',neutra
+'juli tom deu nuncavocepass fat algu ent quer chanc defend pass dor milh estupr min chanc defend dad apresentocontrari pass assimvoceach continu jeito sinc sei diz',negativa
+'maior pres traf drog crim patrimoni 40julg resolv propost inconstituc dev clausul petre proib tip punica',negativa
+'ana cl nogu trat propriedad hav escravida pisc',neutra
+'tant med anticonstituc pass emend',neutra
+'nenhum parent detent ex detent fic imagin dor famili sab sang corr mortediz famil far alg terri boa parent crimin jamal imagin cois tip',negativa
+'fic espant declaraco psicopat lei post facebookfalac leiosort sei pouc empat chei odi desinform exist dao esperanc human',negativa
+'otavi celan dor famil vit exchampinhamoc 7 estupr matarampergunt famili vit ach',negativa
+'pod trabalh lei penal permit acomodaca sauda',neutra
+'pen mort adiantaserv acarici ced sanguepesquis feit pratic pen mort indic crim diminuemaument grav crimesentend ne',negativa
+'alexandr berton oliv pens pag moed vocej viu conden mort volt mat estupr',negativa
+'por just viv cert muit inoc pag pat',neutra
+'concordoolh olh dent dent',positiva
+'verdad maldit gost estupr mat dev gost sent nunh cade eletr ne',negativa
+'luc pasion lei funcion pov pres continu pres pres cumpr pen teri',neutra
+'jeit facil acab superlotaca',neutra
+'invist educaca log presidi escol',negativa
+'feit votaca pergunt populaca presidiari dev trabalh 91vot favor det trabalh',neutra
+'rafael fl bent educaca academ profiss transform carat pesso',neutra
+'fal invest educaca boa',neutra
+'educaca preven individu tend crimin educaca ressocial individu cumpr penacarat reflet aspect soci cult individu ambi inser educaca agent mudanc',neutra
+'rafael liberdadena adiant diplom algu consegu empreg burocrac alt taxaca',negativa
+'concord comvocerogeri dung',positiva
+'proib trabalh execuco penal prev trocent condico',negativa
+'clar melhor prevenca questa pres conden exist var form remica pen comport estud etcquantum pen sem abert cas crim ediondosess diminu pen solt prox cumpr pi',positiva
+'raphael gibson oportun comentari',positiva
+'raphael gibson coloc pesso situaca simples precis comet crim vis patrimoniodesigualdad crim patrimoniaismodal popul crim',neutra
+'necessari presidi escol',positiva
+'trabalh forc cust desp presidi hotel',neutra
+'coment escol pud constru escol constru presidi orc difer ambos constru junt individu escolh',neutra
+'broc jefferson carvalh',neutra
+'concord construca presidi por pens presidi tecnolog maquin rai x fat import sab tip regim exist tip adequ reclusa regim fech penitenci max seguranc detenca regim semiabert abert execut colon agricol simil possibilit detent trabalh recolh abert cumpr alberg prisa domicili depend juiz escolhergal exist cp cf por cumpr local adequ verdad precis mud lei cumpr',positiva
+'sil luc concord cumpr presidi precis constru propost afroux lei reu determin pen cumpr fech abert paut solt lo cumpr pen',positiva
+'contru escolasrig orden jurid crim compensapres sent vontad presidi control facco criminosasmesm te total apoi poli inescrupul invert valorespres verdad trat human rigor repar dan causous contruca presidi resolv cronicoalt cust manuntenca ocios detent obrig trabalh ajud custeioheranc maldit costituica cid demagogic tir cidada entreg criminososdest acredit soment reform codig penal respectiv cpp cf long teri luz fund tunel',negativa
+'leonard estev dan irrepara concord inversa val politicosreform codig penal cpp cf sufici coloc pra integr atual precis reform pi teor coloc praticareform pra luz tunel obrig comentari',positiva
+'',neutra
+'bunit hem exist mei resolv superlotaca constru presidi excel ide coloc lo trabalh',positiva
+'verdadetb superlotaca hospit',neutra
+'escol princip respons municipi pouc',neutra
+'preocup superlotaca hospit leit vag doent abandon util descass',negativa
+'imped outr',neutra
+'logic dest burocrat sup lotaca escol dev solucion mand alun deix estud',negativa
+'tud preocupaca por soluca sen ridicul',negativa
+'med par laolh it prisa provisoriaprior entend',neutra
+'engrac senadopreocup superlotaca presidiosentant preocup superlotaca alun sal aul dev preocuparmepoup talv preocup futuramenteesper brev ser presospoil maior mal ensin fundament',negativa
+'gosteiv copi',positiva
+'exatamenteinfeliz',neutra
+'talv unic comentari sensatoparab',positiva
+'just',positiva
+'exatamentequ mudanc verdad caminh educaca',positiva
+'ped invest ped roub',neutra
+'falt inclu invest pesadiss educaca infraestrut laz cult perif oficin profissionaliz invest escol tecn fortalec empreendedor pequen empresari construca emerg nov presidi soluca pali situaca atualprim cit efetiv medi longoeduqu acultur empreg adolesc amanh precis constru cadeiasvid ocorr norueg suic holand',neutra
+'fezcurios verdad som pregu procur',neutra
+'asn encontr internet prefir comentardesej ilumin min sens',negativa
+'quer sab pregu procur',neutra
+'fuzil car',neutra
+'ide ridicul dutert basic deu cart branc execut pesso envolv drog usuari trafic guerr ant drogasconveni muit oposica judiciari comec persegu acusaco us drogasfal terr vir mat pesso fal drog sair impunena cai med popul combat soc serv distra moral bom costum mant situacaoguerr drog guerr feit acab',negativa
+'diminu populaca carcer bast rodrig dutert feit filipinaside agr',positiva
+'absurdov clim sen col queu pres eo import is poli pag pen embarqu navi cargu dess petrobr cheg alt mar ocean atlan solt pen pen cheg cost estara livresna entend explic',negativa
+'constru presidi crin pun dev pag dev impun ger violenc quant inoc dev pag incompetenciare corrupca fal',negativa
+'acab lotaca presidi eo 60 homicidi ano ira aument estatis',negativa
+'sempr 1/6crim hedi progressa regim pass automaticaide boa verporqu rar pres progred regim continu cumpr pen regim gravoso discord progressa exist prev man express lei cumpridadeix cumpr constituica feder age difer encarcer',positiva
+'natan zabott diz post 1/6 crim',neutra
+'fal crimes1/6 crim comumna gost niss progressa automaticabenefici automa avaliarcompl',negativa
+'paran aplic adiant',negativa
+'ach ruim detent cumpr metad pen prop progred regim cumpr 1/6 pi',negativa
+'fras cheg ridiculaolh pres termin pen presici lot feit',negativa
+'fat',neutra
+'propost unic exclusiv fras aplaud pe feit segund dia absurd retrocess',negativa
+'crim homicidi tripl qualific uso equip sonor acim limit estabelec boa vizinhancalog ira liber comet delit levesus indev som direca perig pequen furt deix pag pensaoport garraf pinh sol ruana signif solt maniac psicopat cade caus diss med just liber espac coloc maniac dentr',negativa
+'noticiari ultim solt',neutra
+'vergonh pres ganh regal bom comport acab pres comet crimecomport comet est pres',negativa
+'tal us impost constru presidi infraestrut dign ser human direcion animal tal invest educaca publ bas cri oportun empreg diminu criminal diss simples solt crimin',neutra
+'bolsonar jairheheh',neutra
+'ideiadeix sofrendoning santoum destru vid inclusiveprisa punica colon fer',negativa
+'sup lotaca hospit transport cole red publ impressa sig pagin pass raiv',negativa
+'adiant torn crim hedi juiz fech olh poli corrupt',negativa
+'ide presidi ating capac max comec injeca letal comet crim hediondoaproveit alt corrupca crim hedi',negativa
+'ja adiant funcionarliber pres tornozel vir it orgulh perig sair esquin assaltadofacil compr ilh perd mand recuperaca 3 chanc quart vaz',neutra
+'esta sacan ne diret pres unic direit segu lei esta dentr pag fer sair curt sel cab 50 pe bot 50 pe heuen queu mud idad penal 7 coloc perpetu crim grav deix facco junt faz favor mat',negativa
+'rem problem',negativa
+'mat fat ve',negativa
+'prend meli juiz deleg solt palaci congress',neutra
+'sen quer mat poli constro presidi solt dirig embriag pag pensa car peg pich presidi suficientesam deu',negativa
+'sen quer mat poli constro presidi solt estupr ladro assassin presidi suficientesam deu',negativa
+'brasil quandovocef vot favor pens tax justific baratinhafic',neutra
+'absurd ne verdad desculp liber verdad cumpr dev',neutra
+'judiciari verific pres cumpr pen control alg basicoabrand penasconstru nov presidi minimiz situaca empreg muit desempregadana aparec desafog hospit escol lot legisl preocup defend igual',neutra
+'gal esquec compar est unid amer compar crim solucion populaca carcer men pouc crim solucionadosmat som australi zeland europ can chin nort afric turqu arab saudit ira junt impun tremendacrim solucion teri duvid populaca carcer',neutra
+'tremend burr imprudenc cri desserigoros lei penal',negativa
+'brasil pi',neutra
+'so vem propost dess nivelpenitenci superlot constru simplescrimin rua car crimin penitenciariaslel penal brand propostapi cad seriedad parlament esper propost sig adiantepopulaca cans tant impun',neutra
+'nobr deput sen defend exig invest qual educaca dand mei populacaodiminu gradativ presidiari instru vot pens soment umbig risc candidaturaspor rapid comunicaca evoluca internet pov total domin manipuladomigalh epoc colis funcionamigalh foc reform previdenc inat fgtsesper depert efetivonoss represent med populaca instruidanoss irma brasil encontr pres cumpr devemposs despert serv deix esper maioriana voz baix cabec aceit tud reinvindicarestud busc melhor demonstraca rebeld ultrapass opres incen pi populaca',neutra
+'sen palhac futur pov educ pov princip crianc man adequ pass tempovocen precis pens soluco essesna venh soluco curt simpl voceest cri',neutra
+'assimprecis ges deix motor inexperi dirig onibu sab dirig entend sab dirig carret bi monstr presidiari saud dirig inv troc pec compr caminhaoacord ne',neutra
+'constru presidi decent respeit human cumpr penacol queu trabalh presidi pag div vit fizeramacab aberraca progressa penaprotej',neutra
+'maravilhaconstru nov presidi ne larg judiciari resolv mutira panverdad prend domicili mund ueh',positiva
+'algu estupr filh mat caus celul met bal test 20 cont cart cham obrig ped desculp cert',negativa
+'parab senh sen ajud torn just segur porc lei parab chor mort assalt parab polic ver morr enterr esquec podera ver faculdadeparab brasil',negativa
+'priva especi seguranc dev administr govern prov incapaz resolv superlotaca propo faz lo tra propost ridicul',negativa
+'facil execut qm crim edi possu fich suj muit muit pen fic dic',negativa
+'so piadaconstru presidi am deu cheg cao seguranc publicadeliqu roub matasab pres fic facil solturavoc ach pov iditot',neutra
+'sen cri prestefoss rig muit avali mud tant presidiari penitenci',neutra
+'precis mutira sab pres cumpr pen hor extr tal judiciari com softw',neutra
+'falt educaca oportun favorecidosremedi obvi long vot ne',neutra
+'ja invest educaca saud empreg pobr melhor qual rol msm solt menos perig constru presidi',neutra
+'pen mort pedofil estupr psicopat ajud bast far ninguemlix',negativa
+'poli prevenca reintegraca demand esforc long dao votosna pov hav paz poli',neutra
+'precis estour capac judiciari inici operaca tartarug logic judiciari trabalh di evit sup lotaco',neutra
+'mat 100 dia vazi quer quint infernospront coloc paut',negativa
+'paut caus trist visa impotentescois mal vir zorr total',negativa
+'ridicul solt assassin vag cade pres comport obrigaca ato merec reconpens',negativa
+'roub',neutra
+'ue podera deix pres preven penitenci exist carc delegac fic pres preven',neutra
+'estad prisa paraisomed prisa entr sab soltotrabalh jeit simpl trabalh obr publ rodov estudarinv solt',neutra
+'simpl resolv superlotaca lib pen mort crim hedi hor comec mat lix com cust sa mat estupr roub merec',negativa
+'top list arrecadaca impost men retorn populacaoraza lei sent pautasdesv pov mant lux apadrinhadoss ric presidi sup lot dev constru dev invest educaca seguranc soluca precis geni descobrirclar acontec educaca informaca imagin louc pov descobr acab issona conveni sen',neutra
+'soluca superlotaca presidiospoli publ melhor distribuica rend educaca empreg serv publ infraestruturaresult imediat interess cl poli obvi naoenta soluco rap milagr nenhum efeit pra aplac ansei imediat elei',positiva
+'verdad cao pan total recomenda evit genocidi ult vist presidiosmostr human monstr',negativa
+'brasil bandidagemcomec 3 podereslegisl eleitor judiciariog sab 3 sacane',neutra
+'deix ver entendiinvestigaprend provisoriamentena estrut julg celerev aparelh judiciari solt presosinefici julgamuit presov invest qual presidi carcerari foc ressocializaca solt presosach entendiindecis',neutra
+'bom certezana ganh votara sempr senh facilexempl reform previdenciaon previdenc mesm milit ambos fic reformasmo 1voc olh umbig bbang cago med empared militaressimpl',neutra
+'superlotaca sal aul invest educaca cade presosna entend invest educaca evasa repetenc cidada criticosah esquec ser pens discut projet vot senadovoc der apunhal populaca aprovaca terceirizacao fund poc',neutra
+'acab ideal invest prevenca prim ne demand temp boa ide aplic pen altern frequenc alg contribu ressocializaca sujeit',neutra
+'facil resolv por extrem irracionalc comet crim sab sair cumpr pen soluca piorarcaus raiz dispar soci pov educaca permiss passivac comet crim ach faz jus soc ach certoperpetu receb punica pegaag peg sair cumpr penainv educ cultiv crimin',negativa
+'sen tal acab superlotaca hospit inumer cidada sentenci pen mort di dev corrupca omissa heintiv educaca qual diminuica presidiari consequenciapens pouc utiliz hombr',negativa
+'superlotaca onibusalguemvidemetr vam tr transport lev trabalh crianc busc futur pi dev preocup futur dign busc futur carcerari privatizacaosim dev terceirizadocol queu pov encarcer trabalh par promov tal discurs humanizaca carceragemevit nov hosped cuid criancaseducaca seguranc pequenospart humanizadop humanizadoescol human val cade humanizadasraiz comec evit apodrec frut',neutra
+'exat kkkk cri emit propost soluc prim constitu',positiva
+'so brinc',positiva
+'cri ide invest presidi err fei result pres demal pouc presidi us justific liberdad criminososcri soluca propo impun',negativa
+'ja consider possibil torn detent vantag interessantessenadov',neutra
+'coloc trabalh ninguempag estad nao cust menos sobr constru presidi escol consens escol pod mud real',neutra
+'seguinteacab cade lib port arm cidada estil velh oest poli impresta lei regred',neutra
+'predi verd infern pov questa imagin ceuna lei segur brand polic mort transform presidi lasc',negativa
+'inv repet ideiaspens constru presidi pen mort soluca busqu informaca sabera simpl',negativa
+'propost melhor curt praz pen mort determin crim lei rig construca nov presidi pres dev pag prisaolong praz educaca educaca educaca poli criaca empreg combat corrupca aplic seguranc melh fal educaca',negativa
+'especialistagilbert sant conscienc responsa alimentoscarn estrag desrespeit crim desenvolv patolog proced afet diret publ gananc cresc financ cust desum etic tra confianc pov grand empresari pequen inadmissi condut entretant cris val empreend analis period alimentici confi nom confianc questa seguranc esf afer supr tribun orga responsa verd ord progress antagon tip corrupca terror desord sociaispensamentoprodu natur respons evit prejuiz irrepara dev honr inegocia oferec carn brasil estrangeirosp nissofornecedoresarticul perit aconselh preven publ escri',negativa
+'palhac faz forc pref mordomiafamil perd ent quer perd bem restaur pens populaca politic corretonoj linh pens',negativa
+'direit human crim pen ser conduz interrog pres automatic liber process corr praz atras responsa respond p sob pen perd carg',neutra
+'precis mutira automaca operacionalresolv ide muit priv us tip control est queu',neutra
+'cri parc priv ger trabalh curs profissionalizantespres trabalh ger rend famil sustent conclusa pen',neutra
+'incri mal dess sen prefer solt meli cri multido jurid inv invest educaca seguranc publ barr avanc crimevergonh mod trat questo seguranc publ alg banalal trat essenc banaldigapass educaca',negativa
+'viv democrac pi pront pres escol punica crianc influenci elementosvot amanh pi',neutra
+'mat presidiari poli ministr stf frent constru escol cab crimin colon fer',negativa
+'prisa perpetuaconstruca presidi seguranc max 56 cidad 27 pen morteproponh presidi seguranc ultr max trafic drog mulh arm men lid facco organizaco crimin terror esputr poli corruptoscel pod cab 4 duzent cel total podera cab 800 x 2 1 60056 cidad 89t precis terana precis',negativa
+'log acab presidi cidada vir di sanh crimin objet atenco burocratasnegoci mutira solt pres prov cumpr atribuico',neutra
+'acab superlotaca hospit salv vid hom mulh trabalh trabalh invest melhor escolaspra crim barbar pra traf drog pen dur melhor instrut pris trat prior tend morr hospit invest pic',negativa
+'tal obrigatori pres inclusiv realiz obr manutenca rodov demal it infraestrut brasil limp',neutra
+'menin pich escol trabalh dire ped compr tint pint menin pichoudenegr patrimoni publ crimema diret ensin supervi lig escol fal mont direit mand verb pint escol ped pich compr tint pint pichouentend presidi superlot acab de autonom profes escol aplic correco efet vandal escol recup pesso presidi',neutra
+'vc brinc nepopulaca honest mending escol serv essenc solt pres acab superlotacaoprior cidada',neutra
+'mutira verific pres cumpr penajur imped mant sob custod algu pen cumpr ating lotaca ver miser control pris ne',neutra
+'sen mostrandoincomptenciaresolv superlotaca bast constru presidi adotarpenademorteaproveit resolv superlotaca hospit de alt intern 1 coisasdobr',negativa
+'resolv superlotaca pen mort crim hediondoscrim fic impun penitenci espacosena deix jeit gost comet crim',negativa
+'absurdopens pior invent pi total gracat vergonh cambadadecanalhasladro',negativa
+'mecan previst orden juridicofaz lei obrig cumpr leisbizarr',neutra
+'mutira verific pres cumpr pen ach estivess tecnolog parec volt pedr',neutra
+'vergonhacorret execu supr deficienc vagas650 pres 350 vagas700 mandat prisa abertocoorden constru 1milha vagaspod prend judiciari pod aplic pen exempl acab cult pen min existe80criminal deix existirsobrarianoss jov encant crimemid deix roman bandidapresidi fech pres transform escol hospitaischam longovej nord holand belg',negativa
+'ahhhhhbolsonar 2018',neutra
+'gost sab dificuldad pres pres ve soluca resocial ser coloc navi cargu jog alt marprecis divis contin africanovolt tera pen cancel fich limp',neutra
+'pod mutira ating lotaca hospit transfer paci hospit particul log pens queremach principi proporcional razoabil',neutra
+'pen morteest cans pag impost altiss dign dinamarc sustent estupr ladro assassin traficantesnegoci comport exist sa volt errone',negativa
+'ide acab superlotacaov peg homic genoc estupr mulh crianc pedofil sentenci pen morteorga do precis realmentesim val pen',negativa
+'kkkkkkkkkkkkkkk confort comec cheg lav jat carn frac frang excess hormoni remedi adulter tip losart aikkkkkkk rindog precis confort',neutra
+'engrac melhor qual presidiari ninguemaffff tantaaii negoci ridicul dest poup sen',neutra
+'absurdotrat efeit causamai med descrit tomadaseleg sab cois funcion',neutra
+'hospit lot sal aul parec presidi oferec condico min crianc invest educaca crianc pres amanh',neutra
+'esper sen alvar vot favora crimin desculp verb dess vej absurd',neutra
+'progressa pen comport kkkkkk deu ceu trafic estrup homic fiz err solt comport kkkkkkkk pi',negativa
+'perguntapres provisori penitenci acab carcer dp ira pres lav jat golp mequetref bol hein rsna lug pres',neutra
+'esquec process executori penaisbast cumpr lep fazemdelegac pres provisori sentenciadospres provisori dev est penitenci basicoinclu mulh idos prisionalceler lei humanidadecumpr lep cumpramalep',neutra
+'soluca priso lotadassolt pres parabenspoli and seguranc excel comum',neutra
+'pass pen igual sardinhaonibu peg lot ajudoupalavr vergonh',neutra
+'jeit opinia ped pres opinia cidada pag impost sen vergonh camb atitud parec projet feit futur presidiari pres',neutra
+'invest presidi ressocializ torn capazna caus raiv ala conserv sociedad',neutra
+'consent brig revolt internasmat diminu intern economiz precis mud nenhum',neutra
+'analis corret verific context pris facil perceb med emerg acim sob pont vist humanitari corret ali trat pres alt indic periculos principi detent provis delegac presidi portant hav pen altern analis cumpr pen iminenc cumpr la integr dev solt tir publ pes cust dev est solt portant med sob pont vist econom viavel',neutra
+'tant preocup peg faz superlotaca presidiosbolsonar pres cade pag pec colon fer',neutra
+'dev evit prisa comet assassinat reincidenteprisa sufici sentenci sent err cometidojulg dev pun serv comunitari mult',neutra
+'resum 2 prim itensprisa lot trabalh ver injustic der certog soltakkkkkkkk',neutra
+'simpl pen lev prisa rural ger aliment pres crim acim 5 regim sem abert acim 5 15 regim fech obrigatori obr pavimentaco sane monitor progressa pen 50pen pen 15 20 regim fech obrigatori dentr presidi parc graf livr mater escol campanh costur uniform usa feit sair crim edi corupca multipl mort jur popul pen capit prisa perpetu regim obrigatori',neutra
+'1/6 pen conced crim graviss assassinat homicidi latrocini dol contrari obrig unia constru 50 100 presidi penitenci seguranc max inclu crim hedi pen max 50 min seri segur',negativa
+'quer ver preocupaca hospit escol crech univers geraca empregosperguntaalg obrig individu err est pres neval aceit opco acim solt cumpr rest pen trabalh comunidad limp prac banh publ pint mur limp rua ajud crech',neutra
+'simpl constru presidi bot pres trabalh muit maneirasag solt uhun uhun cumpr',neutra
+'organiz direit cab um 30',neutra
+'17 cel cab 10 cab 17deix cadeial',neutra
+'favor',neutra
+'favor liber presosseguint situacaopres ganh pass ida indones unic pec roup ganh mal reche drog cheg drog indones sab',neutra
+'coloc pres trabalh troc estad cade use destin constru presidi',neutra
+'tal regulament drog populaca carcer deu salt enorm 2006 maior traf drogaspeg quant pequen entorpec patro devid pres helicopter po regulament coloc crim vend ileg permit control produt arrecadaca impost',negativa
+'fazacab polic rasg lei prontoning pres uefic rode log',neutra
+'quer pag plan vitalici vocesn salari exorbitantesn gasolin carr lux auxili palit salari mis receb sustent dir pag lux dess sonh tereicheg acab aposentad acab mamat junt',neutra
+'simpl lev val met baladeix detent sair acab perd cidada',neutra
+'sao med emergenciaismex codig penal constru presidi model combat crimena meli',neutra
+'resolv superlotaca sen deputados1/3 poli',neutra
+'trop cho queu entr fuzil tud presidi fic vaziossuj agu saba boa pint resolv',neutra
+'absurd proponh favor diss peg dess lix human lev dentr trat',negativa
+'constru presidi col queu pres trabalh pag estad pen pagu presidi pres contribuint',neutra
+'verific exist pres cumpr pen prisa lot absurdoverificaca dev sistema minimotrag',neutra
+'sacan ne pres confort fernand beir mar deit rol aviaopresidi pres possu celul drog arm brancasolt marg vir colaps encontramud legislaca mud codig penal decret pen mort injeca letal ga cade eletricana ter superlotaca',negativa
+'fim carcer delegac tbm regal presospres est pres visit cumpr penav rig trilh cert',neutra
+'dev avali pres presidi lotarclar pres necess tom gast',neutra
+'louc solt vag conseg min vergonh conseg man biz fic impression',negativa
+'pen mort maior princip comet homicidiotraf drogascrim hediondo sociopat carte',negativa
+'coloc presidiari trabalh tra muit benefici bia pass boa recuperaca pres ganh',neutra
+'sab sair crimeoferec qualificaca profiss dentr presidi coloc trabalh sustent famil aki coloc varr ruaslimp prac plant com denrtr presidi aceit fic felizest cert crim incen',neutra
+'educaca melhor mud cult atrav ensin dev basic resolvecabec pens',neutra
+'elielton rodrig otim opca',positiva
+'construca nov presidi ideal salari alt',neutra
+'man resolv constru variosp trabalh sustent igual unid',neutra
+'extingu presidi pens reconstruca meli individu igualit oportun',neutra
+'esper ating lotaca verific pres cumpr pen respons nest verificaca cumpr leipoil tard quer utiliz recurs pag indenizaca ineficienc',neutra
+'desej fosfoetanolamin sinte estud usp ped argument liberaca stf abaix mail ministrosgabineteedsonfachin stf ju braudienciamlrb stf ju braudienciamlrb stf ju brgabteor stf ju brgabineteluizfux stf ju brgabineteluizfux stf ju brgabmtoffol stf ju brabmtoffol stf ju braudienciavirtualcarmen stf ju braudienciavirtualcarmen stf ju brmemorialcarmen stf ju brmemorialcarmen stf ju braudienciasgilmarmend stf ju braudienciasgilmarmend stf ju brgabcob stf jusbrasil',neutra
+'gost demal cobr solt cuid filhoscaus',positiva
+'revog',neutra
+'alen tcelikov aivoceentend prest olh lix propost legisl',neutra
+'soluca superlotaca solt jeni pi',neutra
+'ridiculobo vergonh sab exist legisl',negativa
+'cel coloc carn podr sen',neutra
+'pen mort crim hedi por constituica permit',negativa
+'seri pag 33 pens mont asn',neutra
+'complet absurd pass situaca respeit leisengrac situaca exist var dec poli empresari pres brasil questa torn importantissimatom vergonh comec trabalh favor cidada foratem',neutra
+'bast aprov lei esquec mud brasil',neutra
+'verific pres cumpr pen diz pesso continu pres cumpr pen',neutra
+'oh solt log enta fei negoci einpunico segur',neutra
+'cidada ref criminal pres dentr propr residenc liber',neutra
+'aprov pen mort crim hedi superlotaca existiracham atenca superlot cade lib presospi pen lev unic ver mentecrim compens',negativa
+'coloc paut superlotaca carg poli inclusiv politicosning precis tant sanguessug brasil salari alt regal',neutra
+'presidi ating lotaca mutira judiciari verific pesso cumpr pen verificaca dev continu evit cumpr pen permanec pres',neutra
+'excel esquec aument auxili fanfarroo',positiva
+'lalalalal mutira resolv solt pres prox cumpr pen lalalalal curv ei voss sabed superi',neutra
+'avaliaca mutira pen cumpr rest afrontaridicul',neutra
+'farr soltemtragicolamentocrim compens',neutra
+'acab superlotaca solt presosfav nena constro presidi',neutra
+'abr port presidi sot lix',neutra
+'fiascoach desculp desvi atribuico',neutra
+'legaliz drog impost diminu populaca carcer',negativa
+'presidi ating lotaca pen cumpr execut ating limit presidiari subsequ ultrapass lotaca max',neutra
+'culp superlotaca poli faz lei favorec bandidagemv rodrig dutert',negativa
+'temeducaca empregoaff frent',neutra
+'adiant desculp solt presosbom pass bel',neutra
+'caus presidi sup lot presosmo cresc pres invest educaca estruturaenta trabalh caus raiz problem',neutra
+'esta preocup pres hospit lot semelh protej semelh',neutra
+'brinc carapopulaca acordandobagunc acab',neutra
+'preocup cade cidada',neutra
+'chegapar jeit cumpr previstofalenc',neutra
+'just 50 habit presidi 6 duz presidi int',neutra
+'melhor fal nadavocesab pens',neutra
+'kkkkk simvocetbm sab pens rs',positiva
+'pamel nurch perd costum lei comentari',neutra
+'naoincompetenc educaca frouxida hor aplic lei incen crimesolt apen chei presidi liber padec element nocivosprivatiz presidi',negativa
+'crim vir empreend lucr presidi chei reincidenc const',neutra
+'traduzindobenefici pa pres detr incompetenc',neutra
+'ide comec mat marg resolv situaca superlotaca rapid',negativa
+'gabriel pens deu recado cumpad rol sortei diminu duminu superlotaca pres executadocomec jog',neutra
+'cade eletr pen mort constru presidi coloc ruasjudoc lazarent',negativa
+'crim compensarec sen sociedad fal crim po gradu ne',neutra
+'troc invest cade invest escolasach',neutra
+'mat simpl noil viv pag impost roub simpl',negativa
+'pen mort ia esvazi bast presidi trabalh sustent dentr iri ger cofr publ ve caminh',negativa
+'piadadesocup presidi belezalegaliz drogas60crim relacion mesm',neutra
+'bot capin beir rodov bat concret gui forcadoning propo',neutra
+'tem entr paut superlotaca sal aul vist gross',neutra
+'nadana pres presidi sup lot va viv honestamentena roub mat',negativa
+'enquant continu tranc dentr med violenc assol nort lest oest',neutra
+'pod reduz presidi gradativ ateh prend presidiosc jen',neutra
+'solt pres caus superlotacaojenioassim qdo superlot prend poup',neutra
+'prefir acab limitaca presidi opinia igual coraca cab',neutra
+'preocup escol hospitaiscontru escol futur presidi estara vazi',neutra
+'verific pres cumpr pen assimpres cumpr pen continu pres',negativa
+'favor diss naonegoci constru presidi meli trabalh pag',negativa
+'superlotaca parent amig apadrinh comission salari superfatur dentr senadolavajat',neutra
+'pens doent hospit lotadospen mort acab superlotaca presidiosacab criminal',negativa
+'diminu lotaca pen mort resolv rap questa',neutra
+'superlotaca sal aul pens niss pens import',negativa
+'prq cogit pen mort estupr assassin poli corrupt frigorif',negativa
+'invest educaca teri prend',neutra
+'solt metad presidi dobr capac kkkk',neutra
+'vir badern vergonh dess pag milh milh impost basic pag vari direit put',negativa
+'coloc pres ger rend constru presidi tant dificil consegu',negativa
+'superlotaca hospit escolasmultira',neutra
+'fim superlotacaoaprovaca pen mort crim hedi',negativa
+'autor renan calheirosseri algu vot favor',neutra
+'gentepagin sen piadatristezagast sen faz propost ridicul pens pov mediocr pens conhec fat test',negativa
+'congress publicaca mostr desservicocar demal mant ruim demal serv',neutra
+'unic real acab superlotaca presidi invest pes educaca',neutra
+'pres provisori podera penitenci cert carcer delegac pov solt ne',neutra
+'pres inoc vom condenarerr judiciari lot porq verd bond livr lev solt',negativa
+'30 cab 30cade agrada meli priv liberdadepi possi consegu sair que volt',neutra
+'pov honest ferr empreg preocupadoscans',negativa
+'precis mutira bast softw control',neutra
+'cade spacade opca marg senh politicosaond cab 5 entr 10t ruim apront poxafac cert pres',negativa
+'resolv cri solucaopropost incen crimin volt agir1/6 pen incentivoconselhot alter pen torn dur med pres',neutra
+'fac cade pessoal',neutra
+'ridicul nivel superi tecn desprepar fich suj precis reavali',negativa
+'daqu pres consequ ment perfeit',neutra
+'so sacan gentelix lei lix poli lixojunt explod',negativa
+'piadageni prop tal soluca',positiva
+'inacredita solucaona com',neutra
+'deu vej assinat atest incompetenc',neutra
+'ja pens nel cel lot',neutra
+'pens crimin cumpr pen comport aument prisa',negativa
+'dev est preocup sup lotaca onibu trabalh viv dia',neutra
+'acab superlotaca sal aul escol publ projet',neutra
+'pens viu aparec aff palhac',neutra
+'so est zue solt bandid rua',negativa
+'dev estud atac caus raiz superlotaca presidi',neutra
+'deu ceu mutira sab presidiari cumpr pen',neutra
+'bandid populaca',neutra
+'par met mao patrimoni pod constru centen presidioscri vergonh',negativa
+'surrealacab superlotaca constru presidi col queu inici priv constru ger presidi nov naosoluca liber crimin rua',neutra
+'reform pris individu pag pen complet pag',neutra
+'naovot cois priorit cade ferr',negativa
+'vergonhosopens reduz criminal invers',negativa
+'genteviv pens dess porrr favorsalv pud',neutra
+'constru presidi ninguemre impossi lot',neutra
+'educaca projet elabor moral aprov',positiva
+'propost ruim encar soluca paleativopreside cri',neutra
+'fim reduca pen crim hedi',negativa
+'resolv seri pi mau gost',negativa
+'construca nov presidi privatiz presidi ponh vagabund trabalh sustent exced constru nov and divid turn gast presidi ira gast escol',neutra
+'vari populaca vir impun ger violenc crimin perderesper crimin fiqu cade pag crim toleranc zer',negativa
+'duvid faz bolsonar venc eleicoespopulaca manifest',neutra
+'sup lot olh ouv cerebr atur tant palhac tant politic concret volt pov vergonh',negativa
+'ira receb met di coloc cumpr dentr',neutra
+'hav pen mort pres reincid assassinatolel dur presidi estat fazi',negativa
+'ferr criminal aument crimin tem cidada fic pres casasenquant legisl pior situaca tip',negativa
+'tao quer brun ne senadoiss col capet aguard ansios',neutra
+'mim pod fac dizersobr viv ganh liberdad',neutra
+'privatiz carcerari deix pres trabalhar',neutra
+'oce vir fernand beir mar comport tribun',neutra
+'jeitinhoresolv superlotaca cri cidada',neutra
+'cuid sup lotaca hospit precis aprov',neutra
+'to pesquis armasvoc dev',neutra
+'melhor peg poli roub constru presidi inclusiv coloc',neutra
+'vc parab ide giric atr parec vei nord gost giric sei ond',neutra
+'tir presidi solt ruasphod cidada tom oi goiab trabalh sustent meli',neutra
+'lot cade solt presoexcel logic trabalh seguranc publicaquis tranqu carr escritori',neutra
+'1/6 pen crim compens multiplic 6 ver impossi complet execut mand val presidiari jair bolsonaro2018',neutra
+'fic presosest ind caminh err',negativa
+'falt 1 it assassin estupr sequestr dev morr espac',negativa
+'olh brilh ideiana fech polic havera priso',neutra
+'paut superlotaca hospit educaca escol',neutra
+'evit sup lotaca bast invest educaca qualidadetera oportun',positiva
+'solt cumpr pen dev acontec sempr',neutra
+'devolv def?s pessoal cidada diminu quant mam tet govern pens reduz gast otimizaca public destin verb real pens pov sustent',neutra
+'dev artig proib benefici agentecorrupt',negativa
+'acab superlotacaodeix apodrec cade junt',negativa
+'solt po queu espac presidi kkkkk constru vag crimin col queu pen mort perig',negativa
+'sentenc cumpr integralmentedev acab progressa penapen acim 50 comut perpetu',neutra
+'multira resolv solt pres pert cumpr pen comet crim pag fim',negativa
+'dev prop hav mutira medic hospit superlotad val invert',neutra
+'sen problem quer presidioshouv superlotaca constru presidioscheg refenss mir delinqu prox hor descobr lucr',negativa
+'legal med afrox pen result med err pres',negativa
+'tip surpreend lamenta fiqu atent autor dess projet absurd especif autor sen renan calh bast acess link descrica mat confer',neutra
+'pod chin usal doaca orga util sociaedad',neutra
+'pen mort crim hedi corrupcaohahasuperlotaca hospit',negativa
+'kkkkkkk palhac dess politicospens brinc',positiva
+'so fal solt cad punica pcc kkkkkkk',neutra
+'esper lot mes',neutra
+'apen topic demal fragiliz lei',neutra
+'pq faz mutira hospit merec olh',neutra
+'ja cheg indult said tempor comport peg vint cumpr cheg impun terr lei terr',neutra
+'mat mat estupr pedofil comet latrocini',negativa
+'realmentesuperlotaca presidi hospitaisseguranc publ segurancad sima pi pront',neutra
+'sen circ invent pi',neutra
+'pen mort prisa perpetu crim hediondosroub pes sai pag prejuiz pesso sofr',negativa
+'acab log presidi prend hav lotacaolot merec',neutra
+'pres execut prev',neutra
+'roub solt pres bandid rir toa',negativa
+'ve cheg assacin livr',neutra
+'incompetentenunc trat causaalgum med pali asn cri',negativa
+'val mat torn bon cumpr 1|6 pen sai repet',neutra
+'cri impost tempor constru presidiobast presidi escolassen cl maior ind desej',neutra
+'metad dess lix mand cemiterioassim roub maisna mataetcnoss lix libert canalh nov',negativa
+'legisl entaoach desigualdad rend desarm civil sucate milit',negativa
+'ah simresolveracrianc bol melhor altern',neutra
+'privatiz presidi coloc trabalh manteremresolv',neutra
+'resolv dess pior atual situaca 1/6 pen pi incen impun',negativa
+'cad acab hospit superlot parec piadamsm',neutra
+'acab superlotaca hospit dev prior',neutra
+'diminu lotaca presidi mand carn brf jb facil resolv',neutra
+'bot pres serv pes tap burac rodov feder plant escal aliment sustent presidi sob supervisa exercit ver presidi lotarquer volt doid queuebr reduz cust',neutra
+'oxe lotarpresidi sofr colon fer',neutra
+'ideiasoltaresolv tal problem',neutra
+'pres provisori penitenci vag pres delegac deixara exist',neutra
+'aproveit lib poss port arm fog tbobrig',neutra
+'diz criminalidadeaument pouc pres dia',neutra
+'poderi condic progressa regim pres constat busc ressocializacaorend constro melhor presidiocoloc rua atest incompetenc fragil',neutra
+'adiant list fech financ escond atr legend mostr med explic pov motiv dest list fech vot pmdb psdb pp pdtlix',neutra
+'jefferson oliv otavi lim agr comet crim pert sair comet crim pres sair boa',neutra
+'luil bianc otim acab vag lib',positiva
+'melhor alg p/ acab sup lotaca fil hospitaishospit doenc presidi evit individu trabalh honest',neutra
+'complic hem',negativa
+'roldney advalt olh ide dess',neutra
+'diminu superlotaca presidi triplic quant',neutra
+'1/6 pen kkkk sec pov respost problem solt mund',negativa
+'pen mort trafic estupr assassinostrabalh forc crim',negativa
+'poli presidi lot adot detent lev casasobrig',neutra
+'mutira acontec pres audienc pres solt morodelegac capac 27 110 detent ironic cdp capac 500 vazi constru',neutra
+'1legisl cri lei 2execu execut prend 3judiciari julg 4execu suport lotaca 5legisl cri lei solt infra diz conflit poderesreferenc circul vir si',neutra
+'tal garant autosuficienc presidi atrav pres guard constru presidi delegac escol',neutra
+'poli pens nel frent destin muitosna dao pontocacalh',neutra
+'quefaz td alivi dess cidada pres culp sistem merec atenca respeit pres sofr famil perd algu trabalh final consegu su compr carr mot celul tv perd coit oprim roub',negativa
+'coloc pres trabalh obr publ salari economiz construca presidi',neutra
+'resum soluca superlotaca diminu pen ridicul bot deliqu rua seguranc maravilh',negativa
+'traduzindoal visivel incapaz ressocial pres passara coloc lo nov convivi soc prejuiz cidadaosam propost',neutra
+'solt pres lev respec mae senadorescamb fdp',neutra
+'pov clam pen sev sen prop absurd dest',negativa
+'banc evangel deix escrav sofr pov reform previdenc mal trabalh cheg ditad tem',negativa
+'plebiscit queu sab pov favor reform previdenc',neutra
+'acab superlotaca transport publ hospit retard',negativa
+'facil descriminal uso drog prend grand traficantescade',negativa
+'ah lib comet nov delitospr pres ne deix lasc',negativa
+'superlotaca sal aul acab',neutra
+'pen mort crim hedi reincidentesresolv rap',negativa
+'sen dand rec vit azara crimin coit',negativa
+'kkkkkk soluca poli superlotaca solt presospi',neutra
+'q tal pen mort detent 3 crim cost acab superlotaca iri estimul ir raniel per',negativa
+'dificil viv cris and',negativa
+'pres cumpr pen rsrsr exist pres cumpr pen continu pres inoc ferr pobr coit',negativa
+'escol nov presidioside mirabol',neutra
+'so hidromass frigob celasterci arauj arauj',neutra
+'mutira ver cumpr pen lot pres etern',neutra
+'ah sen deix solt lev junt coleg',neutra
+'faz sup lotaca hospit tb',neutra
+'sen est sacanagemquer pen dur impun aliviandomo propo criaca nov presidi exempl',negativa
+'acompanh pen solt margempen vergonh melhor',negativa
+'tur execuco penal coloc pra',neutra
+'ridicul fic lot exist invest educaca par destru patr',negativa
+'final',positiva
+'final uhuuuuu',positiva
+'parab',positiva
+'particul ame',positiva
+'gost',positiva
+'ach interess',positiva
+'interess',positiva
+'aprov',positiva
+'concord',positiva
+'e simples comec bom',positiva
+'bom',positiva
+'ame',positiva
+'gost am',positiva
+'olh am',positiva
+'am',positiva
+'maravilh',positiva
+'maravilhaconstru nov presidi ne larg judiciari resolv mutira panverdad prend domicili mund ueh',positiva
+'bom demal',positiva
+'produt bom atend pess',neutra
+'sensac',positiva
+'sensac',positiva
+'dripl sensas',positiva
+'viv am',positiva
+'fic paz',positiva
+'paz',positiva
+'paz',positiva
+'deu ama pec',positiva
+'deu abomin pec',negativa
+'deu bom',positiva
+'deu just',positiva
+'repudi inaceita',negativa
+'e extrem inaceita',negativa
+'am',positiva
+'lind',positiva
+'voc ach lind',positiva
+'am',positiva
+'err',negativa
+'cred',negativa
+'boa inici tip am igual',positiva
+'parab',positiva
+'parab inici sen',positiva
+'esta parab',positiva
+'esperanc',positiva
+'esperanc',positiva
+'esperanc',positiva
+'paz crist',positiva
+'quer',positiva
+'concord',positiva
+'discord',negativa
+'discord total',negativa
+'posi',positiva
+'posi',positiva
+'med posi',positiva
+'boa',positiva
+'boa',positiva
+'inici boa',positiva
+'parab sen boa',positiva
+'amo',positiva
+'ame',positiva
+'ame verdad',positiva
+'ame',positiva
+'am',positiva
+'parab sen otim inici',positiva
+'legal',positiva
+'ach legal',positiva
+'parac pegal menos',positiva
+'just',positiva
+'just',positiva
+'jus',positiva
+'feliz',positiva
+'fiqu feliz mudanc',positiva
+'feliz',positiva
+'questa preocup feliz',positiva
